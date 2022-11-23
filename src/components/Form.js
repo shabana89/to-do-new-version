@@ -1,9 +1,11 @@
+import styles from "../style.module.css";
+
 const Form = () => {
   return (
-    <div>
+    <div className={styles.todoform}>
       <form>
-        <input placeholder="Add Todo Item"></input>
-        <button>Add</button>
+        <input className={styles.todoinput} placeholder="Add Todo Item"></input>
+        <button className={styles.todobutton}>Add</button>
       </form>
     </div>
   );
